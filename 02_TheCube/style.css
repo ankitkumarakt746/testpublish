@@ -1,0 +1,38 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+  }
+  canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Ensure canvas is behind other content */
+  }
+  /* Additional styling for content */
+  #content1 {
+    /* position: relative; */
+    z-index: 1; /* Ensure content is above canvas */
+    /* padding: 20px; */
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 24px; /* Adjust font size as needed */
+    font-family: Arial, sans-serif; /* Specify font family */
+  }
+  #content2 {
+    z-index: 1; /* Ensure content is above canvas */
+    /* padding: 20px; */
+    color: white;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 24px; /* Adjust font size as needed */
+    font-family: Arial, sans-serif; /* Specify font family */
+  }
